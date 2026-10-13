@@ -7,7 +7,6 @@ const catalogData = [
     { id: 6, name: "Джинсы Baggy Vintage", category: "Джинсы", price: 5490, image: "https://images.unsplash.com/photo-1541099649105-f69ad21f3246?w=600&q=80", isBottom: true }
 ];
 
-// Управление корзиной через localStorage для синхронизации между страницами
 function getCart() {
     return JSON.parse(localStorage.getItem('verge_cart')) || [];
 }
